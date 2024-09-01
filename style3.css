@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+    text-align: center;
+}
+#heading{
+    font-size: 10vmin;
+}
+#warning{
+    font-size: 1.7vmin;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    /*ek line me*/
+    /*if plce not availble move on next line*/
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 70vmin;
+    width: 70vmin;
+    display: flex;
+    /*ek line me*/
+    flex-wrap: wrap;
+    /*if plce not availble move on next line*/
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+}
+
+.box {
+    height: 13vmin;
+    width: 13vmin;
+    border-radius: 0.4rem;
+    border: none;
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    /* color: #b0413e; */
+    background-color: #9defce;
+}
+
+.reset-btn {
+    padding: 2vmin;
+    font-size: 3vmin;
+    background-color: #191913;
+    color: #ffffff;
+    width: 21vmin;
+    border-radius: 0.4rem;
+    border: none;
+}
+.previous {
+    padding: 2vmin;
+    font-size: 3vmin;
+    background-color: #191913;
+    color: #ffffff;
+    width: 21vmin;
+    border-radius: 0.4rem;
+    border: none;
+}
+.show-result{
+    padding: 2vmin;
+    font-size: 3vmin;
+    background-color: #191913;
+    color: #ffffff;
+    width: 21vmin;
+    border-radius: 0.4rem;
+    border: none;
+}
+#new-game{
+    padding: 2vmin;
+    font-size: 3vmin;
+    background-color: #191913;
+    color: #ffffff;
+    width: 21vmin;
+    border-radius: 0.4rem;
+    border: none;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+#msg {
+    color: #52d848;
+    font-size: 8vmin;
+}
+
+.hide {
+    display: none;
+}
+
+#anc{
+    padding: 0;
+    margin: 0;
+}
+#anc:visited {
+    color: azure;
+}
+
+#anc:link {
+    color: azure;
+}
+
+#anc:active {
+    background-color: black;
+}
