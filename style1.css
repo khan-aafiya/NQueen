@@ -11,34 +11,35 @@ body {
     background-size: cover;
 }
 
-#btn-jump {
-    padding: 0;
-    margin: 0;
-    height: 5vmin;
+.btn-jump {
+    padding: 0.5rem 1.5rem;
     font-size: 3vmin;
-    width: 25vmin;
+    width: 10rem;
     color: azure;
     background-color: black;
     border-radius: 0.4rem;
     border: none;
-}
-#links{
-    padding: 0;
-    margin: 0;
 }
 
 .container{
     margin-top: 70vmin;
 }
 
-#links:visited {
+.links {
+    font-size: 3vmin;
+    color: azure;
+    text-decoration: none;
+    /* margin-top: 5vmin; */
+}
+
+.links:visited {
     color: azure;
 }
 
-#links:link {
+.links:link {
     color: azure;
 }
 
-#links:active {
+.links:active {
     background-color: black;
 }
