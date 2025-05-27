@@ -22,7 +22,7 @@ body {
     border-radius: 0.4rem;
     border: none;
 }
-#anc{
+#links{
     padding: 0;
     margin: 0;
 }
@@ -31,14 +31,14 @@ body {
     margin-top: 70vmin;
 }
 
-#anc:visited {
+#links:visited {
     color: azure;
 }
 
-#anc:link {
+#links:link {
     color: azure;
 }
 
-#anc:active {
+#links:active {
     background-color: black;
 }
