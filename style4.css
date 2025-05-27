@@ -11,35 +11,39 @@ body {
     background-size: cover;
 }
 
+img {
+    width: 60%;
+    height: 60%;
+    z-index: -1;
+}  
+
 #btn-jump {
-    padding: 0;
-    margin: 0;
-    height: 5vmin;
+    padding: 0.5rem 1rem;
     font-size: 3vmin;
-    width: 30vmin;
+    width: 10rem;
     color: azure;
     background-color: black;
     border-radius: 0.4rem;
     border: none;
 }
 
-#anc{
-    padding: 0;
-    margin: 0;
+#link{
+    color: azure;
+    text-decoration: none;
 }
 
 .container{
     margin-top: 70vmin;
 }
 
-#anc:visited {
+#link:visited {
     color: azure;
 }
 
-#anc:link {
+#link:link {
     color: azure;
 }
 
-#anc:active {
+#link:active {
     background-color: black;
 }

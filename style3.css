@@ -21,6 +21,7 @@ body {
     /*if plce not availble move on next line*/
     justify-content: center;
     align-items: center;
+    margin: 1rem 0;
 }
 
 .game {
@@ -49,33 +50,16 @@ body {
     background-color: #9defce;
 }
 
-.reset-btn {
-    padding: 2vmin;
-    font-size: 3vmin;
+.btn{
+    padding: 2vmin 0;
+    font-size: 2.8vmin;
     background-color: #191913;
-    color: #ffffff;
+    color: azure;
     width: 21vmin;
     border-radius: 0.4rem;
     border: none;
 }
-.previous {
-    padding: 2vmin;
-    font-size: 3vmin;
-    background-color: #191913;
-    color: #ffffff;
-    width: 21vmin;
-    border-radius: 0.4rem;
-    border: none;
-}
-.show-result{
-    padding: 2vmin;
-    font-size: 3vmin;
-    background-color: #191913;
-    color: #ffffff;
-    width: 21vmin;
-    border-radius: 0.4rem;
-    border: none;
-}
+
 #new-game{
     padding: 2vmin;
     font-size: 3vmin;
@@ -104,18 +88,18 @@ body {
     display: none;
 }
 
-#anc{
-    padding: 0;
-    margin: 0;
+#link{
+    color: azure;
+    text-decoration: none;
 }
-#anc:visited {
+#link:visited {
     color: azure;
 }
 
-#anc:link {
+#link:link {
     color: azure;
 }
 
-#anc:active {
+#link:active {
     background-color: black;
 }
